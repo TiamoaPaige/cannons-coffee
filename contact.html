@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cannons Coffee</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>
+          <img
+            src="https://assets.codepen.io/296057/logo-nav.png"
+            alt="Cannons Coffee Logo, Beans of Joy"
+            class="logo"
+          />
+          <span>CANNONS COFFEE</span>
+        </h1>
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="latte.html">Coffee</a></li>
+            <li>
+              <a href="https://www.starbucks.com" target="_blank">About</a>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="cannons-form">
+        <form>
+          <h1>Contact Form</h1>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <br /><br />
+          <label for="comments">Questions/Comments:</label>
+          <br />
+          <textarea id="comments" name="comments" rows="4" cols="40"></textarea>
+          <br /><br />
+          <label for="favcoffee">Please choose favorite flavor: </label>
+          <select id="favcoffee" name="favcoffee">
+            <option value="">-- Please choose an option--</option>
+            <option value="french vanilla">French Vanilla</option>
+            <option value="blackroast">Black roasted</option>
+            <option value="decaf">Decaf</option>
+          </select>
+          <br /><br />
+          <input type="radio" id="buycoffee" name="coffeejob" />
+
+          <label for="buycoffee">Buy coffee</label>
+
+          <input type="radio" id="seeking employment" name="coffeejob" />
+
+          <label for="seekingemployment">Seeking employment</label>
+          <br /><br />
+          <button type="submit">Submit</button>
+        </form>
+        <div class="container"></div>
+      </div>
+      <footer>
+        <img
+          src="https://assets.codepen.io/296057/logo-footer.png"
+          alt="Cannons Coffee, Beans of Joy! Est. 2014"
+        />
+        <p>&copy; 2024 Cannons Coffee. All Rights Reserved</p>
+      </footer>
+    </div>
+    <script src="custom.js"></script>
+  </body>
+</html>
